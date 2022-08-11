@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+    color: antiquewhite;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 4px;
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    boarder: 1px solid #fff;
+    cursor: pointer;
+}
+
+.color{
+    background-color: lightcoral;
+}
